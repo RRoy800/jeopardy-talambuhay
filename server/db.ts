@@ -6,26 +6,25 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'Which NYC borough is the third most populated?',
+        answer: 'Manhattan',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'What is the most famous song by Survivor?',
+        answer: 'Eye of the Tiger',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What is the name of the most popular fantastical series released in 1997',
+        answer: 'Harry Potter',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'In what year was Chipotle founded?',
+        answer: '1993',
     }
 ]);
 
@@ -64,25 +63,25 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+            'What City is This?',
         imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+            "https://media.istockphoto.com/id/802893644/photo/aerial-view-of-downtown-miami-florida.jpg?s=612x612&w=0&k=20&c=QwdSYtoeB-9xTvqgbpnM9aCaRf_39rw8bVw7LsszSGg=",
+        answer: 'Miami',
     }
 ]);
 
 
 const categories = [
     {
-        title: 'My Past',
+        title: "Rohan's Past",
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: "Rohan's Present",
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: "Rohan's Future",
         questions: futureQuestions
     }
 ];
