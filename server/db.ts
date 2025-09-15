@@ -33,40 +33,55 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+                'Which video game is this a photo from?',
+            imgSrc: 'https://techcrunch.com/wp-content/uploads/2020/07/Annotation-2020-07-29-145223.jpg',
+            answer: 'MSFS 2025',
         },
         {
             points: 100,
             question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+                'What school is this?',
+            imgSrc: 'https://www.horacemann.org/uploaded/HoraceMann/Images/Our_School/CampusAerial.jpg',
+            answer: 'Horace Mann',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'What was the original name of the New York Yankees?',
+            answer: 'The New York Highlanders'
         },
         {
             points: 400,
             question:
-                'Who painted this?',
-            imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+                'What two instruments was Phil Collins known for paying?',
+            answer: 'The Piano and Drums',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'What City is This?',
+            'What City is this?',
         imgSrc:
             "https://media.istockphoto.com/id/802893644/photo/aerial-view-of-downtown-miami-florida.jpg?s=612x612&w=0&k=20&c=QwdSYtoeB-9xTvqgbpnM9aCaRf_39rw8bVw7LsszSGg=",
         answer: 'Miami',
+    },
+    {
+        points: 200,
+        question:
+            'What car is the make and model of this car?',
+        imgSrc: 'https://flavoredtimes.com/wp-content/uploads/2024/12/koenigsegg.jpg',
+        answer: 'Koenigsegg Jesko Attack',
+    }, 
+    {
+        points: 300,
+        question: 'Which University was founded in 1924 by James Buchanan?',
+        answer: 'Duke University'
+     },
+     {
+         points: 400,
+         question:
+             'Which John Grisham novel was written in 1992?',
+        answer: 'The Pelican Breif',
     }
 ]);
 
