@@ -46,8 +46,8 @@ const presentQuestions: Question[] =
         },
         {
             points: 300,
-            question: 'What was the original name of the New York Yankees?',
-            answer: 'The New York Highlanders'
+            question: 'What team was originaly known as the Highlanders?',
+            answer: 'The New York Yankess'
         },
         {
             points: 400,
@@ -69,7 +69,7 @@ const futureQuestions: Question[] = sortQuestions([
         points: 200,
         question:
             'What car is the make and model of this car?',
-        imgSrc: 'src/future_car.jpg',
+        imgSrc: 'https://flavoredtimes.com/wp-content/uploads/2024/12/koenigsegg.jpg',
         answer: 'Koenigsegg Jesko Attack',
     }, 
     {
