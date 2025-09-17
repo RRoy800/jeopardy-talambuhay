@@ -69,7 +69,7 @@ const futureQuestions: Question[] = sortQuestions([
         points: 200,
         question:
             'What car is the make and model of this car?',
-        imgSrc: 'https://flavoredtimes.com/wp-content/uploads/2024/12/koenigsegg.jpg',
+        imgSrc: 'src/future_car.jpg',
         answer: 'Koenigsegg Jesko Attack',
     }, 
     {
