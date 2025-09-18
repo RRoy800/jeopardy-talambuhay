@@ -62,7 +62,7 @@ const futureQuestions: Question[] = sortQuestions([
         question:
             'What City is this?',
         imgSrc:
-            "https://media.istockphoto.com/id/802893644/photo/aerial-view-of-downtown-miami-florida.jpg?s=612x612&w=0&k=20&c=QwdSYtoeB-9xTvqgbpnM9aCaRf_39rw8bVw7LsszSGg=",
+            "/miami_photo.jpg",
         answer: 'Miami',
     },
     {
@@ -81,7 +81,7 @@ const futureQuestions: Question[] = sortQuestions([
          points: 400,
          question:
              'Which John Grisham novel was written in 1992?',
-        answer: 'The Pelican Breif',
+        answer: 'The Pelican Brief',
     }
 ]);
 
